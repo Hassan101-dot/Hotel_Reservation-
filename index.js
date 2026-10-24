@@ -1,6 +1,6 @@
 import e from "express";
 import dotenv from "dotenv";
-import { bootstrap } from "./src/appControler.js";
+import { bootstrap } from "./src/app.js";
 dotenv.config()
 
 let app = e()
